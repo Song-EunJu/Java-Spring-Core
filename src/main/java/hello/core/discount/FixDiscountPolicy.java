@@ -1,2 +1,4 @@
-package hello.core.discount;public class FixDiscountPolicy {
+package hello.core.discount;
+
+public class FixDiscountPolicy {
 }
