@@ -1,7 +1,6 @@
 package hello.core.order;
 
 public class Order {
-
     private Long memberId;
     private String itemName;
     private int itemPrice;
@@ -14,7 +13,7 @@ public class Order {
         this.discountPrice = discountPrice;
     }
 
-    public int calculatePrice(){ // 최종 계산금액
+    public int calculatePrice(){
         return itemPrice - discountPrice;
     }
 
@@ -51,7 +50,7 @@ public class Order {
     }
 
     @Override
-    public String toString() { // 객체를 출력했을 때 이 결과가 나옴
+    public String toString() {
         return "Order{" +
                 "memberId=" + memberId +
                 ", itemName='" + itemName + '\'' +
