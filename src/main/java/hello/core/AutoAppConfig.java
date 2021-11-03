@@ -13,8 +13,8 @@ import org.springframework.context.annotation.FilterType;
 ) // 예제 유지하기 위해 @configuration 붙은 애는 제외하고 ComponentScan
 
 public class AutoAppConfig {
-    @Bean(name = "memoryMemberRepository")
-    public MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    public MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
